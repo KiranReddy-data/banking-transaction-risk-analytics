@@ -8,6 +8,10 @@ env/
 .env
 .DS_Store
 *.log
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
 data/raw/*.csv
 data/processed/*.csv
 !data/raw/.gitkeep
